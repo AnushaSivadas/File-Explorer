@@ -1,0 +1,32 @@
+.folder {
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.folder>span {
+    margin: 0 5px 2px 5px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputContainer > span {
+    margin-top: 5px;
+}
+
+.inputContainer__input {
+    margin: 6px 0 0 0;
+    padding: 5px;
+    display: flex;
+    border:  1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
